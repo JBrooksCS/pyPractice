@@ -23,7 +23,6 @@ print (word.upper())
 print (word.split("m")) #Useful
 print (word.split("a")) #Useful
 
-
 #Formatting
 print ("a %s parrot" % "dead")
 
