@@ -20,5 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #include will chop off trailing characters
     #and send remaining string
-    path('blog/', include('blog.urls')),
+    #path('blog/', include('blog.urls')),
+    path('', include('blog.urls')),
+
 ]
